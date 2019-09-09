@@ -1,0 +1,21 @@
+{
+  "name": "@flamescape/service-bus-rpc",
+  "version": "1.0.0",
+  "description": "A simple RPC client & server using Azure Service Bus",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "rpc"
+  ],
+  "private": false,
+  "author": "Gareth Hughes <g_github@flamescape.com>",
+  "homepage": "https://github.com/mikuso/service-bus-rpc",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/service-bus": "^1.0.3",
+    "eventemitter3": "^4.0.0",
+    "promise-queue": "^2.2.5",
+    "simple-backoff": "^1.1.0",
+    "uuid": "^3.3.3"
+  }
+}
